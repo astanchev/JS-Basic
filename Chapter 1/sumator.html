@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="number" id="firstNumber" /> +
+    <input type="number" id="firstNumber" /> *
     <input type="number" id="secondNumber" /> =
     <input type="number" id="result" /> 
     <br />
@@ -17,7 +17,7 @@
             var firstNumber = parseInt(document.getElementById("firstNumber").value);
             var secondNumber = parseInt(document.getElementById("secondNumber").value);
 
-            document.getElementById("result").value = firstNumber + secondNumber;
+            document.getElementById("result").value = firstNumber * secondNumber;
         }
 
         var calculateButton = document.getElementById("calculateButton");
