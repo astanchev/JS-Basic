@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="firstNumber" /> +
+    <input type="number" id="secondNumber" /> =
+    <input type="number" id="result" /> 
+    <br />
+    <input type="button" id="calculateButton" value="Calculate"/>
+    <script>
+        function calculate(){
+            var firstNumber = parseInt(document.getElementById("firstNumber").value);
+            var secondNumber = parseInt(document.getElementById("secondNumber").value);
+
+            document.getElementById("result").value = firstNumber + secondNumber;
+        }
+
+        var calculateButton = document.getElementById("calculateButton");
+
+        calculateButton.addEventListener("click", calculate);
+    </script>
+</body>
+</html>
