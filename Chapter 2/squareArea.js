@@ -1,4 +1,4 @@
 function calculateSquareArea([a]) {
-    let area = a * a;
+    var area = a * a;
     console.log('Square area = ' + area);
     }
