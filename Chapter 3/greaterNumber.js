@@ -1,6 +1,6 @@
 function greaterNumber([arg1, arg2]){
-    var num1 = Number(arg1);
-    var num2 = Number(arg2);
+    let num1 = Number(arg1);
+    let num2 = Number(arg2);
     if(num1 > num2){
         console.log(num1);
     }
