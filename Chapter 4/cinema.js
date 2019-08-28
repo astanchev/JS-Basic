@@ -11,7 +11,7 @@ function cinema([arg1, arg2, arg3]) {
         case "normal": money = 7.5 * row * column; break;
         case "discount": money = 5 * row * column; break;
     }
-    console.log(money.toFixed(2) + " leva")
+    console.log(money.toFixed(2) + " leva");
 }
 
 
