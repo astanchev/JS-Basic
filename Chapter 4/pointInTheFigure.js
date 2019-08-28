@@ -13,7 +13,7 @@ function pointInTheFigure([arg1, arg2, arg3]) {
     var commonBorder = x > h && x < 2 * h && y === h;
 
     if (outRectangle1 && outRectangle2) {
-        console.log("outside")
+        console.log("outside");
     }
 
     else if (inRectangle1 || inRectangle2) {
