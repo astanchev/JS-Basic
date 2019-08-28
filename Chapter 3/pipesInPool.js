@@ -18,6 +18,3 @@ function pipesInPool(args) {
         console.log(`For ${hours} hours the pool overflows with ${Math.round((litersFull - volume)*100)/100} liters.`);
     }
 }
-
-pipesInPool("1000\n100\n120\n3");
-//pipesInPool(["100 \n 100 \n 100 \n 2.5"]);
