@@ -51,12 +51,12 @@ function passionDays(input) {
     }
 }
 
-passionDays(["110", "mall.Enter", "d", "mall.Exit"]);
-console.log();
-passionDays(["110", "mall.Enter", "%", "mall.Exit"]);
-console.log();
-passionDays(["100", "mall.Enter", "Ab", "**", "mall.Exit"]);
-console.log();
+// passionDays(["110", "mall.Enter", "d", "mall.Exit"]);
+// console.log();
+// passionDays(["110", "mall.Enter", "%", "mall.Exit"]);
+// console.log();
+// passionDays(["100", "mall.Enter", "Ab", "**", "mall.Exit"]);
+// console.log();
 
 let data = ['mall.Enter',
 '%%%%%%%%%%JHZJHJZKLZ',
