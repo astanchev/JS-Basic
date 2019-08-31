@@ -80,5 +80,5 @@ let data = ['mall.Enter',
 'mall.Exit',
 '%%%%'];
 
-// JS Limit. This will not work 
+// JS Limit. This will not work 90/100 in Judge
 passionDays(["79228162514264337593543950335", data]); // 353 purchases. Money left: 576460752303416096.37 lv
