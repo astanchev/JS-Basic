@@ -1,5 +1,5 @@
 function solve(n) {
-    function printLine(start = 1, end) {
+    function printLine(start, end) {
         let line = "";
         for (let i = start; i <= end; i++) {
             line += i + " ";
