@@ -3,7 +3,7 @@ function solve([number, index]) {
 
         let count = 1;
 
-        while (num != 0) {
+        while (num !== 0) {
             let digit = num % 10;
 
             if (ind === count) {
