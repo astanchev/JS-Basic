@@ -1,5 +1,5 @@
-function xExpression(expression) {
-
+function xExpression(input) {
+    let expression = input[0];
     let index = 0;
     let symbol = expression[index];
     let rezult = 0;
@@ -77,7 +77,6 @@ function xExpression(expression) {
     console.log(rezult.toFixed(2));
 }
 
-//Time limit in Judge 0/100
 
 xExpression("4+6/5+(4*9-8)/7*2=");
 xExpression("3+(6/5)+(2*3/7)*7/2*(9/4+4*1)=");
